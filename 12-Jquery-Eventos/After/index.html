@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+    </head>
+        
+    <body>
+        <div id="register">
+        <h3>User Registration Page</h3>
+        <form id="idForm" method="post">
+        
+        <label>Username</label>
+        <input type="text" id="username" autocomplete="off" />
+        <span class="errorMsg" id="errorusername">*Please provide the valid username.</span>
+        
+        <label>Email</label>
+        <input type="text" id="emailid" autocomplete="off" />
+        <span class="errorMsg" id="erroremail">*Please provide the valid email-ID.</span>
+        
+        <label>Mobile</label>
+        <input type="text" id="mobilenumber" autocomplete="off" />
+        <span class="errorMsg" id="errormobile">*Please provide the valid mobile number.</span>
+        
+        <label>Password</label>
+        <input type="password" id="userpassword" autocomplete="off"/>
+        <span class="errorMsg" id="errorpassword" >*Please provide the valid password.</span>
+        
+        
+        <button id="boton1" type="submit">Registrar</button>
+        </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
