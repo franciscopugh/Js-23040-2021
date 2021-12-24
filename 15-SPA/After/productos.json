@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Notebook",
+        "marca": "Enova",
+        "precio": 135000,
+        "stock": 20,
+        "img": "notebook-enova.jpg"
+    },
+    {
+        "nombre": "TV Led",
+        "marca": "Enova",
+        "precio": 25000,
+        "stock": 10,
+        "img": "tv-led.jpg"
+    },
+    {
+        "nombre": "Gabinete Gamer",
+        "marca": "Iqual",
+        "precio": 12000,
+        "stock": 15,
+        "img": "gabinete-gamer.jpg"
+    },
+    {
+        "nombre": "Mouse Gamer",
+        "marca": "Logitech",
+        "precio": 7500,
+        "stock": 25,
+        "img": "mouse-gamer.jpg"
+    }
+]
